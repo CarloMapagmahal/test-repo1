@@ -1,0 +1,72 @@
+
+
+/*|||||||
+  Header
+  |||||||
+*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left-section {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation {
+  display: none;
+}
+.container-logo {
+  padding-left: 1em;
+  color: white;
+}
+.logo {
+  font-size: clamp(1em, 5vw + 1rem, 1.3em);
+}
+.sub-logo {
+  font-size: clamp(.1em, 5vw + 1rem, .5em);
+  padding-left: 4em;
+}
+.header-right-section {
+  display: none;
+}
+@media (min-width:769px), (orientation: landscape) {
+  .navigation {
+    display: block;
+    margin-left: 2em;
+  }
+  .navigation li {
+    display: inline-block;
+    padding-left: .3em;
+  }
+  .navigation a {
+    text-decoration: none;
+    color: rgb(245, 238, 238);
+  }
+  
+  
+  
+  .header-right-section {
+    display: block;
+    padding-right: 1em;
+  }
+  
+  .login-btn {
+    font-weight: 400;
+    font-size: clamp(.7rem, 5vw + 1rem, .9rem);
+    background: transparent;
+    color: white;
+    border: none;
+  }
+  .signup-btn {
+    font-size: clamp(.7rem, 5vw + 1rem, .8rem);
+    background-color: rgb(125, 201, 175);
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    padding: .7em 1.3em ;
+    margin-left: .5em;
+  }
+}

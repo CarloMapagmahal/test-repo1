@@ -1,0 +1,388 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(218, 207, 207);
+}
+/*|||||||||
+  Statistics section
+  |||||||||
+*/
+.section-statistics {
+  margin: 0 auto;
+  background-color: rgb(44, 33, 56);
+  width: min(90%, 380px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: -2em;
+  border-radius: .6em;
+}
+.div-statistics {
+  text-align: center;
+  border-bottom: 1px solid rgb(138, 135, 135);
+  width: 100%;
+  padding: 1em 0;
+}
+.div-statistics1 {
+  text-align: center;
+  border-bottom: 1px solid rgb(173, 167, 167);
+  width: 100%;
+  border: none;
+  padding: .5em 0 2em 0;
+}
+.stats-nmbr {
+  font-size: clamp(.6rem, 5vw + 1rem, 2rem);
+  color: rgb(111, 40, 177);
+  font-weight: 500;
+}
+.stats-description {
+  font-size: clamp(.6rem, 4vw + 1rem, 1rem);
+  font-weight: 400;
+  color: rgb(219, 215, 215);
+}
+.metrics-update {
+  color: rgb(219, 215, 215);
+  text-align: center;
+  font-size: clamp(.5rem, 4vw + 1rem, .8rem);
+}
+/*||||||||
+  Popular courses
+  ||||||||
+*/
+.Popular-courses-section {
+  color: rgb(173, 170, 170);
+  margin: 2.5em auto;
+}
+.div-popular-courses-title {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  width: min(80%, 300px);
+  gap: .9em;
+}
+.popular-courses-h1 {
+  font-weight: 500;
+  font-size: clamp(1rem, 5vw + 1rem, 1.7rem);
+}
+.popular-courses-h2 {
+  font-weight: 400;
+  font-size: clamp(.5rem, 3vw + 1rem, 1rem);
+}
+.div-courses-preview-container {
+  width: 100%;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.course-preview {
+  width: min(50%, 250px);
+  margin-bottom: 1em;
+  background-color: rgb(43, 35, 51);
+  padding: .5em;
+}
+.div-course-thumbail {
+  width: 100%;
+}
+.course-thumbnail {
+  width: 100%;
+}
+.courses {
+  width: 100%;
+}
+.course-info h3 {
+  font-weight: 500;
+  font-size: clamp(.9rem, 12vw + 1rem, 1rem);
+  margin-bottom: .5em;
+}
+.course-info h4 {
+  font-weight: 400;
+  font-size: clamp(.4rem, 4vw + 1rem, 1rem);
+}
+.course-content-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+  margin-top: 1em;
+}
+.course-content h5, h6 {
+  font-size: clamp(.5rem, 4vw + 1rem, .8rem);
+  font-weight: 400;
+  padding-bottom: .5em;
+}
+/*||||||||
+  Bait-section
+  ||||||||
+*/
+.course-bait-section {
+  width: 100%;
+  background-color: rgb(102, 101, 101);
+  padding-bottom: 2em;
+}
+.div-course-bait-section {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(214, 208, 208);
+  padding: 4em 0 ;
+  gap: 2em;
+  max-width: 410px;
+  margin: 0 auto;
+
+}
+.div-chris-img {
+  width: min(90%, 300px);
+}
+.chris-img {
+  width: 100%;
+}
+.course-bait-description {
+  width: min(80%, 400px);
+}
+.course-bait-description h4 {
+  font-size: clamp(.8rem, 5vw + 1rem, 1.2rem);
+  margin-bottom: 1em;
+}
+.course-bait-description p {
+  font-size: clamp(.5rem, 5vw + 1rem, 1.1rem);
+}
+.div-perks {
+  margin-top: 1em;
+}
+.Perks {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2em;
+  margin-top: 1em;
+} 
+.div-perks-info h5{
+  font-size: clamp(.6em, 4vw + 1rem, 1rem);
+  font-weight: 490;
+} 
+.div-perks-info p {
+  font-size: clamp(.4rem, 3vw + 1rem, .975rem);
+}
+.div-quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(180, 173, 173);
+}
+.quote {
+  font-size: clamp(.5rem, 4vw + 1rem, 1rem);
+  text-align: center;
+  width: max(30%, 300px);
+  
+}
+.div-quote-owner-img {
+  width: 50px;
+
+}
+.quote-owner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2em;
+  margin-top: 1em;
+}
+.quote-owner-img {
+  width: 100%;
+  border-radius: 50%;
+}
+.quote-owner-name {
+  font-size: clamp(.5rem, 5vw + 1rem, 1rem);
+  color: white;
+}
+/*
+Pricing Section
+*/
+
+.pricing-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Pricing-title {
+  text-align: center;
+  max-width: 480px;
+}
+.Pricing-title p {
+  font-size: clamp(.8rem, 4vw + 1rem, 1.2rem);
+  text-align: center;
+}
+.pricing-box2,
+.pricing-box {
+  width: min(80%, 280px);
+  margin-top: 1em;
+  padding-bottom: 2em;
+  border: 1px solid black;
+  
+}
+.pricing-box2 {
+  margin: 1em -.5em 0;
+  z-index: 2;
+  border-top-left-radius : 7px;
+  border-top-right-radius : 7px;
+  border:  1px solid rgb(16, 235, 235);
+}
+.pricing-header {
+  background-color: rgb(70, 70, 84);
+  text-align: center;
+  border-top-left-radius : 7px;
+  border-top-right-radius : 7px;
+  padding: .6em 4em;
+}
+.pricing-header h2 {
+  font-weight: 400;
+  font-size: clamp(1rem, 5vw + 1rem, 1.4rem);
+  text-align: center;
+}
+.pricing,
+.pricing span,
+.pricing h3 {
+  display: inline-block;
+  text-align: center;
+}
+.div-package-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgb(29, 19, 36);
+}
+.div-package-content p {
+  font-size: clamp(.5rem, 4vw + 1rem, .9rem);
+  margin-top: .5em;
+  padding: 1.2em ;
+}
+
+.orig-price {
+  font-size: clamp(.5rem, 4vw + 1rem, .9rem);
+  text-decoration: line-through;
+}
+.discounted-price  h3{
+  font-size: clamp(1rem, 5vw + 1rem, 1.5rem);
+  font-weight: 400;
+}
+.time-price {
+  font-size: clamp(.5rem, 4vw + 1rem, .9rem);
+  font-weight: 400;
+}
+.div-package-content button {
+  width: 90%;
+  padding: .8em 0;
+  background-color: rgb(46, 167, 126);
+  border: none;
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+/*
+  frequently-ask-questions-section
+*/
+.frequently-ask-questions-section {
+  width: 100%;
+  color: #fff;
+  background-color: rgb(66, 61, 72) ;
+  margin: 2em 0 0;
+  padding-bottom: 2em;
+}
+.FAQ-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: clamp(1rem, 5vw + 1rem, 2rem);
+  padding: 1.5em 0;
+}
+.div-Questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.question {
+  width: min(70%, 300px);
+  margin-bottom: .8em;
+  border-bottom: 1px solid rgb(196, 190, 190);
+}
+.question h3{
+  font-weight: 600;
+  font-size: clamp(1rem, 4vw + 1rem, 1.2rem);
+  margin-bottom: .3em;
+} 
+.question p {
+  font-size: clamp(.5rem, 4vw + 1rem, 1rem);
+  padding-bottom: 1em;
+}
+
+
+@media (min-width:769px), (orientation: landscape) {
+  .section-statistics {
+    flex-direction: row;
+    width: max(55%, 450px);
+  }
+  .div-statistics {
+    border-bottom: none;
+    white-space: nowrap;
+  }
+  .div-statistics1 {
+    padding: .5em 0 1em 0;
+  }
+  .div-courses-preview-container  {
+    flex-direction: row;
+    gap: 2em;
+  }
+  .div-course-bait-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 50%;
+
+  }
+  /*
+  Pricing section
+  */
+  .flex-pricing {
+    flex-direction: row;
+    column-gap: -3em;
+
+  }
+  /*
+  frequently-ask-questions-section
+  */
+  .div-Questions {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6em;
+  }
+  .question {
+    border: none;
+  }
+  
+}

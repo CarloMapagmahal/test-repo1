@@ -1,0 +1,61 @@
+
+.hero {
+  color: #fff;
+  padding: 1em 0 2.6em 1em;
+  line-height: 1.1;
+  width: 90%;
+}
+.hero h1 {
+  white-space: nowrap;
+  font-size: clamp(1em, 4vw + 1rem, 1.8em);
+  font-weight: 500;
+}
+.hero h2 {
+  color: rgb(36, 216, 216);
+  white-space: nowrap;
+  font-size: clamp(1em, 4vw + 1rem, 1.6em);
+  font-weight: 500;
+}
+.hero p {
+  font-weight: 400;
+  font-size: clamp(.5rem, 4vw + 1rem, .8rem);
+  padding-top: .8em;
+  width: min(80%, 350px);
+}
+.hero button {
+  width: 95%;
+  margin: 1.5em 0;
+  padding: .6em;
+  color: rgb(7, 166, 219);
+  border: none;
+  border-radius: 2px;
+  font-size: clamp(.5rem, 5vw + 1rem, .8rem);
+}
+
+@media (min-width: 481px), (orientaion: landscape) {
+  .hero button {
+    width: 20%;
+    padding: .7em;
+  }
+}
+@media (min-width:769px), (orientation: landscape) {
+  .hero {
+    padding: 3em 0.2em 8em 1em;
+  }
+  .hero h1 {
+    font-size: clamp(1em, 4vw + 1rem, 3em);
+  }
+  .hero h2 {
+    font-size: clamp(1em, 4vw + 1rem, 2.9em);
+  }
+  .hero p {
+    font-weight: 400;
+    font-size: clamp(.5rem, 4vw + 1rem, 1rem);
+    padding-top: .8em;
+    width: min(80%, 350px);
+  }
+  
+  .hero button {
+    width: 10%;
+  }
+}
